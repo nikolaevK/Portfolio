@@ -37,7 +37,7 @@ export default function Contact() {
     <section>
       <div className="contact-container">
         <div className="contact-img-container">
-          <img src={contactImg}></img>
+          <img src={contactImg} alt="/contact"></img>
         </div>
         <div className="contact-title">
           Thanks for taking the time to reach out!
@@ -61,6 +61,7 @@ export default function Contact() {
             <a
               href="https://api.whatsapp.com/send?phone+18054608670"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Send a Message
             </a>
