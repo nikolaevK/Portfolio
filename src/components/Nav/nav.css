@@ -1,0 +1,153 @@
+/* Nav Links Large Screen */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  perspective: 5000px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
+
+  animation: nav-enter 200ms 300ms backwards;
+}
+/* Animation for navigation */
+@keyframes nav-enter {
+  from {
+    transform: translateY(-100%);
+  }
+}
+
+.mobile-nav-toggle {
+  display: none;
+}
+
+.list-container.flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.list-container {
+  list-style: none;
+  padding-top: 1.5rem;
+  padding-left: 6rem;
+  padding-bottom: 1.5rem;
+  margin: 0;
+  background: hsl(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(1rem);
+}
+
+.list-container:last-child {
+  padding-right: 2rem;
+}
+
+.list-container span {
+  font-weight: 700;
+  font-style: inherit;
+  padding: 1.5rem;
+  color: white;
+}
+
+.list-container span:hover {
+  background: hsl(0, 0%, 100%, 0.11);
+  backdrop-filter: blur(1rem);
+}
+
+/* Cube in NavBar */
+.cube-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  margin: 2rem 4rem;
+  padding: 1rem;
+}
+
+.cube-container {
+  animation: spin 5s linear infinite;
+}
+
+.side {
+  --size: 50px;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--size);
+  height: var(--size);
+  position: absolute;
+  background: hsl(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(1rem);
+  border: 1px solid hsl(200, 100%, 10%, 0.5);
+  transform: rotateY(var(--rotate-y, 0)) rotateX(var(--rotate-x, 0))
+    translateZ(calc(var(--size) / 2));
+}
+
+.right {
+  --rotate-y: 90deg;
+}
+
+.left {
+  --rotate-y: -90deg;
+}
+
+.top {
+  --rotate-x: 90deg;
+}
+
+.bottom {
+  --rotate-x: -90deg;
+}
+
+.back {
+  --rotate-y: 180deg;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateX(0) rotateY(0);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+/* Css for smaller screens */
+@media (max-width: 35em) {
+  .list-container {
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 40%;
+
+    flex-direction: column;
+    padding: min(30vh, 20rem) 2em;
+
+    background: hsl(0, 0%, 100%, 0.1);
+    backdrop-filter: blur(1rem);
+
+    transform: translateX(100%);
+    transition: transform 250ms ease-in;
+  }
+
+  .list-container[data-visible="true"] {
+    transform: translateX(0%);
+  }
+
+  /* Close button for menu */
+  .mobile-nav-toggle {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    z-index: 9999;
+    font-size: x-large;
+    color: white;
+    background: transparent;
+    aspect-ratio: 1;
+    width: 3rem;
+  }
+}
