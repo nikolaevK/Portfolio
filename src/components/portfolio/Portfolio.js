@@ -4,6 +4,7 @@ import budgetImg from "./budget_app.png";
 import weatherImg from "./weather_app.png";
 import shoppingImg from "./shopping_Card.png";
 import minesweeperImg from "./minesweeper.png";
+import portfolio from "./portfolio.png";
 
 const data = [
   {
@@ -33,6 +34,13 @@ const data = [
     title: "Minesweeper JS",
     github: "https://github.com/nikolaevK/Minesweeper-Clone",
     visit: "https://chipper-panda-106f57.netlify.app",
+  },
+  {
+    id: 5,
+    image: portfolio,
+    title: "Portfolio JS",
+    github: "https://github.com/nikolaevK/Portfolio",
+    visit: "https://knikolaev.com/",
   },
 ];
 
