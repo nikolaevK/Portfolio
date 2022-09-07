@@ -24,6 +24,7 @@
   background-color: var(--main-color);
   opacity: 0.8;
   filter: blur(0.7px);
+  transition: 400ms;
 }
 
 .portfolio-item-img:hover {
@@ -86,5 +87,16 @@
   .portfolio-container {
     grid-template-columns: 1fr;
     padding: 0;
+  }
+
+  .portfolio-item-img {
+    height: 230px;
+    width: 330px;
+    box-shadow: 0 0 15px var(--main-color);
+    border-radius: 1rem;
+    text-align: center;
+    background-color: var(--main-color);
+    opacity: 0.8;
+    filter: blur(0.7px);
   }
 }

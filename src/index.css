@@ -82,6 +82,6 @@ section {
 }
 
 .btn-secondary:hover {
-  background-color: var(--main-color-light);
+  background-color: transparent;
   color: var(--secondary-dark-color);
 }
