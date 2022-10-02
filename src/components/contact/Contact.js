@@ -4,7 +4,7 @@ import contactImg from "./contact_img.png";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
 import { AiOutlineArrowDown } from "react-icons/ai";
-
+import toast from "react-hot-toast";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
@@ -31,6 +31,7 @@ export default function Contact() {
       );
 
     e.target.reset();
+    toast("Thank you! Your message sent.");
   };
 
   return (
