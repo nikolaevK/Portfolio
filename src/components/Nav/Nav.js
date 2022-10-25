@@ -12,7 +12,6 @@ import { MdClose } from "react-icons/md";
 import About from "../about/About";
 import Header from "../header/Header";
 import Contact from "../contact/Contact";
-import Footer from "../footer/Footer";
 
 export default function Nav() {
   const [openNav, setOpenNav] = useState(false);
