@@ -20,10 +20,11 @@ export default function About() {
         <div className="about-me-section">
           <h1>Hi again, Nice to meet you.</h1>
           <p>
-            I am passionate and self-taught developer with a blend of business
+            I am a passionate, self-taught developer with a blend of business
             acumen and technical skills from managerial and economic
-            disciplines. These diverse skills allow me to plan, design and build
-            web applications in an effective and efficient way.
+            disciplines. These diverse skills help me to plan, design, and build
+            web applications in an effective and efficient way with a focus on
+            user experience.
           </p>
           <div className="down-pointer">
             <AiOutlineArrowDown />
@@ -34,21 +35,24 @@ export default function About() {
             <MdManageAccounts className="icon" />
             <h3 className="about-description">Management</h3>
             <h3 className="about-description">Skills:</h3>
-            <p>Agile Methodologies, Scrum, Project Management</p>
+            <p>
+              Agile Methodologies, Scrum, Project management, Critical thinking,
+              Risk management
+            </p>
           </div>
           <div className="description-boxes container">
             <AiOutlineCode className="icon" />
             <h3 className="about-description">Frontend Development</h3>
             <h3 className="about-description">Languages</h3>
             <p>JavaScript, TypeScript, CSS, HTML, Python</p>
-            <h3 className="about-description">Tools:</h3>
-            <p>React, NodeJS, Github, Bootstrap, Adobe Lightroom, Photoshop</p>
+            <h3 className="about-description">Technologies:</h3>
+            <p>React, NodeJS, NextJS, Github, Bootstrap, Tailwind</p>
           </div>
           <div className="description-boxes container">
             <MdOutlineAnalytics className="icon" />
             <h3 className="about-description">Economics</h3>
             <h3 className="about-description">Skills:</h3>
-            <p>Analytical and Strategic skills, Econometrics, Gretl</p>
+            <p>Data collection and analysis, Econometrics, Research skills</p>
           </div>
         </div>
         <Portfolio />

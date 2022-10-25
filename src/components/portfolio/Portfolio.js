@@ -9,17 +9,17 @@ import portfolio from "./portfolio.png";
 const data = [
   {
     id: 1,
-    image: budgetImg,
-    title: "Budget App JS",
-    github: "https://github.com/nikolaevK/Budget-App",
-    visit: "https://resonant-heliotrope-0af152.netlify.app",
-  },
-  {
-    id: 2,
     image: weatherImg,
     title: "Weather App JS",
     github: "https://github.com/nikolaevK/Weather-Application",
     visit: "https://frabjous-torte-84eace.netlify.app/",
+  },
+  {
+    id: 2,
+    image: portfolio,
+    title: "Portfolio JS",
+    github: "https://github.com/nikolaevK/Portfolio",
+    visit: "https://knikolaev.com/",
   },
   {
     id: 3,
@@ -30,17 +30,18 @@ const data = [
   },
   {
     id: 4,
+    image: budgetImg,
+    title: "Budget App JS",
+    github: "https://github.com/nikolaevK/Budget-App",
+    visit: "https://resonant-heliotrope-0af152.netlify.app",
+  },
+
+  {
+    id: 5,
     image: minesweeperImg,
     title: "Minesweeper JS",
     github: "https://github.com/nikolaevK/Minesweeper-Clone",
     visit: "https://chipper-panda-106f57.netlify.app",
-  },
-  {
-    id: 5,
-    image: portfolio,
-    title: "Portfolio JS",
-    github: "https://github.com/nikolaevK/Portfolio",
-    visit: "https://knikolaev.com/",
   },
 ];
 

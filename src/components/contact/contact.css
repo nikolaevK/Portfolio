@@ -9,6 +9,13 @@
 .contact-img-container {
   height: 200px;
   width: 200px;
+  animation: contact-image-animation 300ms backwards;
+}
+
+@keyframes contact-image-animation {
+  from {
+    transform: scale(0) rotate(180deg);
+  }
 }
 
 .contact-img-container img {
@@ -26,6 +33,7 @@
   font-size: 2rem;
   text-align: center;
   margin-top: 2rem;
+  animation: contact-image-animation 300ms backwards;
 }
 
 .contact-arrow-down {
@@ -48,6 +56,13 @@
   background-color: var(--secondary-dark-color);
   height: fit-content;
   padding: 4rem;
+  animation: contact-section-animation 300ms 600ms backwards;
+}
+
+@keyframes contact-section-animation {
+  from {
+    transform: translateX(-100%);
+  }
 }
 
 .contact-option {
