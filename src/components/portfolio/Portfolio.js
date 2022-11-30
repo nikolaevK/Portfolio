@@ -5,31 +5,39 @@ import weatherImg from "./weather_app.png";
 import shoppingImg from "./shopping_Card.png";
 import minesweeperImg from "./minesweeper.png";
 import portfolio from "./portfolio.png";
+import blog from "./blog.png";
 
 const data = [
   {
     id: 1,
+    image: blog,
+    title: "Blogging Platform",
+    github: "https://github.com/nikolaevK/Firebase_Blog",
+    visit: "https://celebrated-kulfi-06509e.netlify.app/",
+  },
+  {
+    id: 2,
     image: weatherImg,
     title: "Weather App JS",
     github: "https://github.com/nikolaevK/Weather-Application",
     visit: "https://frabjous-torte-84eace.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: portfolio,
     title: "Portfolio JS",
     github: "https://github.com/nikolaevK/Portfolio",
     visit: "https://knikolaev.com/",
   },
   {
-    id: 3,
+    id: 4,
     image: shoppingImg,
     title: "Shopping Card TS",
     github: "https://github.com/nikolaevK/Web-Store-Add-To-Cart",
     visit: "https://gilded-cendol-93ca80.netlify.app",
   },
   {
-    id: 4,
+    id: 5,
     image: budgetImg,
     title: "Budget App JS",
     github: "https://github.com/nikolaevK/Budget-App",
@@ -37,7 +45,7 @@ const data = [
   },
 
   {
-    id: 5,
+    id: 6,
     image: minesweeperImg,
     title: "Minesweeper JS",
     github: "https://github.com/nikolaevK/Minesweeper-Clone",
