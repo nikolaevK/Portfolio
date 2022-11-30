@@ -42,11 +42,11 @@ export default function About() {
           </div>
           <div className="description-boxes container">
             <AiOutlineCode className="icon" />
-            <h3 className="about-description">Frontend Development</h3>
+            <h3 className="about-description">Software Stack</h3>
             <h3 className="about-description">Languages</h3>
             <p>JavaScript, TypeScript, CSS, HTML, Python</p>
             <h3 className="about-description">Technologies:</h3>
-            <p>React, NodeJS, NextJS, Github, Bootstrap, Tailwind</p>
+            <p>React, NodeJS, NextJS, Github, Bootstrap, Tailwind, Firebase</p>
           </div>
           <div className="description-boxes container">
             <MdOutlineAnalytics className="icon" />
