@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     image: blog,
-    title: "Blogging Platform",
+    title: "Blog Platform JS",
     github: "https://github.com/nikolaevK/Firebase_Blog",
     visit: "https://celebrated-kulfi-06509e.netlify.app/",
   },
@@ -31,19 +31,18 @@ const data = [
   },
   {
     id: 4,
+    image: budgetImg,
+    title: "Expense Tracker TS",
+    github: "https://github.com/nikolaevK/Track-Expenses",
+    visit: "https://moonlit-churros-cd4eff.netlify.app",
+  },
+  {
+    id: 5,
     image: shoppingImg,
     title: "Shopping Card TS",
     github: "https://github.com/nikolaevK/Web-Store-Add-To-Cart",
     visit: "https://gilded-cendol-93ca80.netlify.app",
   },
-  {
-    id: 5,
-    image: budgetImg,
-    title: "Budget App JS",
-    github: "https://github.com/nikolaevK/Budget-App",
-    visit: "https://resonant-heliotrope-0af152.netlify.app",
-  },
-
   {
     id: 6,
     image: minesweeperImg,
