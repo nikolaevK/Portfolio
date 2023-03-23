@@ -20,7 +20,7 @@ const data = [
   {
     id: 2,
     image: algoImg,
-    title: "Algo Visual",
+    title: "Algo Visual TS",
     github: "https://github.com/nikolaevK/Sorting-Visualizer",
     visit: "https://effervescent-concha-cbb482.netlify.app",
   },
