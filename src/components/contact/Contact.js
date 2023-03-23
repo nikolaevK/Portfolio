@@ -59,7 +59,11 @@ export default function Contact() {
             <BsWhatsapp className="contact-img" />
             <h4>WhatsApp</h4>
             <h5>+18054608670</h5>
-            <a href="https://api.whatsapp.com" target="_blank" rel="whatSapp">
+            <a
+              href="https://api.whatsapp.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Send a Message
             </a>
           </article>
