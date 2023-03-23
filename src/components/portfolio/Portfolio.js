@@ -6,6 +6,8 @@ import shoppingImg from "./shopping_Card.png";
 import minesweeperImg from "./minesweeper.png";
 import portfolio from "./portfolio.png";
 import blog from "./blog.png";
+import algoImg from "./algo_visual.png";
+import calculator from "./calculator.png";
 
 const data = [
   {
@@ -17,38 +19,52 @@ const data = [
   },
   {
     id: 2,
+    image: algoImg,
+    title: "Algo Visual",
+    github: "https://github.com/nikolaevK/Sorting-Visualizer",
+    visit: "https://effervescent-concha-cbb482.netlify.app",
+  },
+  {
+    id: 3,
     image: weatherImg,
     title: "Weather App JS",
     github: "https://github.com/nikolaevK/Weather-Application",
     visit: "https://frabjous-torte-84eace.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: portfolio,
     title: "Portfolio JS",
     github: "https://github.com/nikolaevK/Portfolio",
     visit: "https://knikolaev.com/",
   },
   {
-    id: 4,
+    id: 5,
     image: budgetImg,
     title: "Expense Tracker TS",
     github: "https://github.com/nikolaevK/Track-Expenses",
     visit: "https://moonlit-churros-cd4eff.netlify.app",
   },
   {
-    id: 5,
+    id: 6,
     image: shoppingImg,
     title: "Shopping Card TS",
     github: "https://github.com/nikolaevK/Web-Store-Add-To-Cart",
     visit: "https://gilded-cendol-93ca80.netlify.app",
   },
   {
-    id: 6,
+    id: 7,
     image: minesweeperImg,
     title: "Minesweeper JS",
     github: "https://github.com/nikolaevK/Minesweeper-Clone",
     visit: "https://chipper-panda-106f57.netlify.app",
+  },
+  {
+    id: 8,
+    image: calculator,
+    title: "Calculator TS",
+    github: "https://github.com/nikolaevK/Calculator-Ts",
+    visit: "https://calm-squirrel-3d98fa.netlify.app",
   },
 ];
 
