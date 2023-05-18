@@ -20,10 +20,11 @@ export default function About() {
         <div className="about-me-section">
           <h1>Hi again, Nice to meet you.</h1>
           <p>
-            I am a passionate software engineer with a blend of business acumen
-            and technical skills from managerial and economic disciplines. These
-            diverse skills help me to plan, design, and build web applications
-            in an effective and efficient way with a focus on user experience.
+            Results-driven software engineer with a background in economics and
+            management, combining technical expertise with a strong business
+            acumen. Skilled in full-stack development, I bring a unique
+            perspective to problem-solving, considering both technical and
+            strategic aspects.
           </p>
           <div className="down-pointer">
             <AiOutlineArrowDown />
