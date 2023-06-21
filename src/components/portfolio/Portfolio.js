@@ -4,10 +4,10 @@ import budgetImg from "./budget_app.png";
 import weatherImg from "./weather_app.png";
 import shoppingImg from "./shopping_Card.png";
 import minesweeperImg from "./minesweeper.png";
-import portfolio from "./portfolio.png";
 import blog from "./blog.png";
 import algoImg from "./algo_visual.png";
 import calculator from "./calculator.png";
+import messenger from "./messenger.png";
 
 const data = [
   {
@@ -19,32 +19,33 @@ const data = [
   },
   {
     id: 2,
+    image: messenger,
+    title: "Messenger TS",
+    github: "https://github.com/nikolaevK/Messenger-TS-Front-End",
+    visit: "https://rococo-dasik-159078.netlify.app",
+  },
+  {
+    id: 3,
     image: algoImg,
     title: "Algo Visual TS",
     github: "https://github.com/nikolaevK/Sorting-Visualizer",
     visit: "https://effervescent-concha-cbb482.netlify.app",
   },
   {
-    id: 3,
-    image: weatherImg,
-    title: "Weather App JS",
-    github: "https://github.com/nikolaevK/Weather-Application",
-    visit: "https://frabjous-torte-84eace.netlify.app/",
-  },
-  {
     id: 4,
-    image: portfolio,
-    title: "Portfolio JS",
-    github: "https://github.com/nikolaevK/Portfolio",
-    visit: "https://knikolaev.com/",
-  },
-  {
-    id: 5,
     image: budgetImg,
     title: "Expense Tracker TS",
     github: "https://github.com/nikolaevK/Track-Expenses",
     visit: "https://moonlit-churros-cd4eff.netlify.app",
   },
+  {
+    id: 5,
+    image: weatherImg,
+    title: "Weather App JS",
+    github: "https://github.com/nikolaevK/Weather-Application",
+    visit: "https://frabjous-torte-84eace.netlify.app/",
+  },
+
   {
     id: 6,
     image: shoppingImg,
