@@ -1,5 +1,5 @@
 .about {
-  height: 100%;
+  height: 100vh;
   position: relative;
 }
 
@@ -112,7 +112,7 @@ p {
 }
 
 .about-contact-section {
-  height: fit-content;
+  height: 15rem;
   padding: 3rem;
   text-align: center;
   background-color: var(transparent);
@@ -159,6 +159,16 @@ p {
 
   .description-boxes {
     width: 300px;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+  .about-me-section h1 {
+    font-size: xx-large;
+  }
+
+  .down-pointer {
+    left: 45%;
   }
 }
 

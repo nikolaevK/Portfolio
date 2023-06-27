@@ -36,23 +36,29 @@ export default function About() {
             <h3 className="about-description">Management</h3>
             <h3 className="about-description">Skills:</h3>
             <p>
-              Agile Methodologies, Scrum, Project management, Critical thinking,
-              Risk management
+              Agile Methodologies, Scrum, Project Management, Analytical
+              Thinking, Communication
             </p>
           </div>
           <div className="description-boxes container">
             <AiOutlineCode className="icon" />
             <h3 className="about-description">Software Stack</h3>
             <h3 className="about-description">Languages</h3>
-            <p>JavaScript, TypeScript, CSS, HTML, Python</p>
+            <p>JavaScript, TypeScript, Python, CSS, HTML</p>
             <h3 className="about-description">Technologies:</h3>
-            <p>React, NodeJS, NextJS, Github, Bootstrap, Tailwind, Firebase</p>
+            <p>
+              React, NodeJS, NextJS, Github, Bootstrap, Tailwind, Firebase,
+              MongoDB, GraphQL
+            </p>
           </div>
           <div className="description-boxes container">
             <MdOutlineAnalytics className="icon" />
             <h3 className="about-description">Economics</h3>
             <h3 className="about-description">Skills:</h3>
-            <p>Data collection and analysis, Econometrics, Research skills</p>
+            <p>
+              Data Analysis, Research Skills, Problem Solving, Data-Driven
+              Decision Making
+            </p>
           </div>
         </div>
         <Portfolio />

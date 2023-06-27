@@ -43,11 +43,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(
-    to bottom left,
-    var(--main-color),
-    var(--main-color-light)
-  );
+  background-color: var(--main-color);
   color: #fff;
 
   /*overflow: hidden;*/

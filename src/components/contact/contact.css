@@ -54,7 +54,7 @@
   align-items: center;
   gap: 8rem;
   background-color: var(--secondary-dark-color);
-  height: fit-content;
+  height: 650px;
   padding: 4rem;
   animation: contact-section-animation 300ms 600ms backwards;
 }
@@ -102,12 +102,12 @@
 .left-section {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  height: fit-content;
+  gap: 3rem;
+  height: 100%;
 }
 
 .right-section {
-  height: fit-content;
+  height: 100%;
 }
 
 input,
@@ -160,6 +160,35 @@ textarea:focus {
   }
 }
 
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+  .contact-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+  }
+
+  .left-section {
+    flex-direction: row;
+  }
+
+  .contact-option {
+    width: 350px;
+  }
+
+  .contact-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 750px;
+    margin-bottom: 2rem;
+  }
+}
+
 @media (max-width: 35em) {
   .contact-container {
     width: 100%;
@@ -171,7 +200,7 @@ textarea:focus {
   }
 
   .contact-title {
-    width: 300px;
+    width: 350px;
     height: fit-content;
     margin: 0;
     padding: 1rem;
@@ -186,6 +215,10 @@ textarea:focus {
     height: fit-content;
     padding: 0;
     padding-top: 5rem;
+  }
+
+  .left-section {
+    width: 280px;
   }
 
   .contact-input-container {
