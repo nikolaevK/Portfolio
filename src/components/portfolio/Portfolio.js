@@ -1,71 +1,54 @@
 import React from "react";
 import "./portfolio.css";
 import budgetImg from "./budget_app.png";
-import weatherImg from "./weather_app.png";
-import shoppingImg from "./shopping_Card.png";
-import minesweeperImg from "./minesweeper.png";
 import blog from "./blog.png";
 import algoImg from "./algo_visual.png";
-import calculator from "./calculator.png";
 import messenger from "./messenger.png";
+import eCommerce from "./e-commerce.png";
+import eCommerceDash from "./e-commerce-dash.png";
 
 const data = [
   {
     id: 1,
+    image: eCommerce,
+    title: "E-Commerce",
+    github: "https://github.com/nikolaevK/Coffee-Machines-E-Commerce",
+    visit: "https://coffee-machines-e-commerce.vercel.app/",
+  },
+  {
+    id: 2,
+    image: eCommerceDash,
+    title: "Dashboard E-Commerce",
+    github: "https://github.com/nikolaevK/e-commerce-dash",
+    visit: "e-commerce-dash.vercel.app",
+  },
+  {
+    id: 3,
     image: blog,
     title: "Blog Platform JS",
     github: "https://github.com/nikolaevK/Firebase_Blog",
     visit: "https://celebrated-kulfi-06509e.netlify.app/",
   },
   {
-    id: 2,
+    id: 4,
     image: messenger,
     title: "Messenger TS",
     github: "https://github.com/nikolaevK/Messenger-TS-Front-End",
     visit: "https://rococo-dasik-159078.netlify.app",
   },
   {
-    id: 3,
+    id: 5,
     image: algoImg,
     title: "Algo Visual TS",
     github: "https://github.com/nikolaevK/Sorting-Visualizer",
     visit: "https://effervescent-concha-cbb482.netlify.app",
   },
   {
-    id: 4,
+    id: 6,
     image: budgetImg,
     title: "Expense Tracker TS",
     github: "https://github.com/nikolaevK/Track-Expenses",
     visit: "https://moonlit-churros-cd4eff.netlify.app",
-  },
-  {
-    id: 5,
-    image: weatherImg,
-    title: "Weather App JS",
-    github: "https://github.com/nikolaevK/Weather-Application",
-    visit: "https://frabjous-torte-84eace.netlify.app/",
-  },
-
-  {
-    id: 6,
-    image: shoppingImg,
-    title: "Shopping Card TS",
-    github: "https://github.com/nikolaevK/Web-Store-Add-To-Cart",
-    visit: "https://gilded-cendol-93ca80.netlify.app",
-  },
-  {
-    id: 7,
-    image: minesweeperImg,
-    title: "Minesweeper JS",
-    github: "https://github.com/nikolaevK/Minesweeper-Clone",
-    visit: "https://chipper-panda-106f57.netlify.app",
-  },
-  {
-    id: 8,
-    image: calculator,
-    title: "Calculator TS",
-    github: "https://github.com/nikolaevK/Calculator-Ts",
-    visit: "https://calm-squirrel-3d98fa.netlify.app",
   },
 ];
 
