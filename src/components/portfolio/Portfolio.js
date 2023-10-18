@@ -20,7 +20,7 @@ const data = [
     image: eCommerceDash,
     title: "Dashboard E-Commerce",
     github: "https://github.com/nikolaevK/e-commerce-dash",
-    visit: "e-commerce-dash.vercel.app",
+    visit: "https://e-commerce-dash.vercel.app/",
   },
   {
     id: 3,
