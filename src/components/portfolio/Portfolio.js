@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import budgetImg from "./budget_app.png";
+import budgetImg from "./your_wallet.png";
 import blog from "./blog.png";
 import algoImg from "./algo_visual.png";
 import messenger from "./messenger.png";
@@ -46,9 +46,9 @@ const data = [
   {
     id: 6,
     image: budgetImg,
-    title: "Expense Tracker TS",
-    github: "https://github.com/nikolaevK/Track-Expenses",
-    visit: "https://moonlit-churros-cd4eff.netlify.app",
+    title: "Your-Wallet TS",
+    github: "https://github.com/nikolaevK/your-wallet",
+    visit: "https://your-wallet-eight.vercel.app",
   },
 ];
 
