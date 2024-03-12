@@ -26,15 +26,15 @@ const data = [
     id: 3,
     image: blog,
     title: "Blog Platform JS",
-    github: "https://github.com/nikolaevK/Firebase_Blog",
-    visit: "https://celebrated-kulfi-06509e.netlify.app/",
+    github: "https://github.com/nikolaevK/blog",
+    visit: "https://blog-khaki-nine-23.vercel.app",
   },
   {
     id: 4,
     image: messenger,
     title: "Messenger TS",
     github: "https://github.com/nikolaevK/Messenger-TS-Front-End",
-    visit: "https://rococo-dasik-159078.netlify.app",
+    visit: "https://messenger-ts-front-end.vercel.app",
   },
   {
     id: 5,
